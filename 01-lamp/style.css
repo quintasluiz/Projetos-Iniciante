@@ -1,0 +1,36 @@
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+    
+}
+
+button{
+    width: 80px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    box-shadow: 0;
+    transform: translate(2px, 2px);
+}
+
+img{
+    width: 250px;
+    
+}
+
